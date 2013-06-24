@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 15px; padding: 0; margin: 0;}
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #2f8561;
+	background: #43bd8b;
+}
+
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.btn-2 {
+	border-radius: 3px;
+}
+
+.btn-2:hover {
+	box-shadow: 0 8px #2d8561;
+	top: -2px;
+}
+
+.btn-2:active {
+	box-shadow: 0 0 #2d8561;
+	top: 6px;
+}
+
+.btn-3 {
+	background: #3aab7d;
+	color: #fff;
+	box-shadow: 0 6px #2d8561;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+</style>
+</head>
+<body>
+<br><br>
+<center>
+	<h1>A Cool 3D Button</h1>
+		<a href="thenextbutton.html"><button class="btn btn-2 btn-3">Go to the next one</button></a><br><br>
+<center>
+
+</body>
+
+</html>
