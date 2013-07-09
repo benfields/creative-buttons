@@ -22,3 +22,5 @@ Please, respect the licenses of the resources (audio, video, images, or external
 ##### Summarized, write about it, integrate it, make it your own, but don’t copy and paste my work and sell it or claim that it’s yours.
 
 ========
+
+$brand-linkBlue
