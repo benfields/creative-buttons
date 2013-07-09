@@ -23,4 +23,3 @@ Please, respect the licenses of the resources (audio, video, images, or external
 
 ========
 
-$brand-linkBlue
